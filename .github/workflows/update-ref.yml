@@ -19,7 +19,7 @@ jobs:
 
       - name: ♻️ 编译静态文件
         run: |
-          echo -e 'REF_URL=https://reference.learntech.cn/\nREF_LABEL=网站首页\nREF_FOOTER=<a href="http://beian.miit.gov.cn/" title="闽ICP备15011150号-1" target="_blank">闽ICP备15011150号-1</a>' > .env
+          echo -e 'REF_URL=https://reference.learntech.cn/\nREF_LABEL=网站首页\nREF_FOOTER=<a href="http://beian.miit.gov.cn/" title="闽ICP备15011150号-1" target="_blank"> 闽ICP备15011150号-1</a>\nLICENSE=Copyright (c) learntech.cn' > .env
           npm install
           npm run build
 
