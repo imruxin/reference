@@ -24,7 +24,7 @@ jobs:
           npm run build
 
       - name: 🚁 部署到服务器
-        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
           username: ${{ secrets.USERNAME }}   #ssh user name
           port: ${{ secrets.PORT }} # 远程服务器ssh端口，默认22
